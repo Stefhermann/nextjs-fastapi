@@ -1,4 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python
+*.log
+*.pyc
+__pycache__
+*.sqlite3
+
+# Environments
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # dependencies
 /node_modules
